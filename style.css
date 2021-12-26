@@ -32,4 +32,8 @@ section .main .searchBx {
 section .main .searchBx .query {
     width: 100%;
     padding: 13px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    border-radius: 30px;
 }
