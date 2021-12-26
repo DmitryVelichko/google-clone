@@ -13,3 +13,8 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+section .main {
+    width: 580px;
+    margin: 0 20px;
+}
