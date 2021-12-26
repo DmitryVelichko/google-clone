@@ -22,3 +22,8 @@ section .main {
     align-items: center;
     flex-direction: column;
 }
+
+section .main .searchBx {
+    position: relative;
+    width: 100%;
+}
