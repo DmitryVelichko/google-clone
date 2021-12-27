@@ -12,7 +12,7 @@
         <div class="main">
             <img src="images/google.png" alt="Google logo">
             <div class="searchBx">
-                <input type="text" name='' class='query'>
+                <input type="text" name='' class='query' value=''>
                 <div class="icons">
                     <div><img src="images/search.png" alt="Search icon"></div>
                     <div><img src="images/mic.png" alt="Mic icon"></div>
@@ -25,6 +25,11 @@
     </section>
     <script>
         let query = document.querySelector('.query');
+        let searchBtn = document.querySelector('.searchBtn');
+
+        searchBtn.onclick = function() {
+            let url = 'https://www.google.com/search?q=' + query.value;
+        }
     </script>
 </body>
 </html>
