@@ -50,3 +50,7 @@ section .main .searchBx .icons {
   align-items: center;
   pointer-events: none;
 }
+
+section .main .searchBx .icons img {
+    max-width: 100%;
+}
